@@ -25,8 +25,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/BIKA-C/sqlite/llsqlite"
-	"github.com/BIKA-C/sqlite/llsqlite/sqlitex"
+	"github.com/BIKA-C/sqlite"
+	"github.com/BIKA-C/sqlite/sqlitex"
 )
 
 const (

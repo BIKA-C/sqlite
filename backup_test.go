@@ -17,8 +17,8 @@ package sqlite_test
 import (
 	"testing"
 
-	"github.com/BIKA-C/sqlite/llsqlite"
-	"github.com/BIKA-C/sqlite/llsqlite/sqlitex"
+	"github.com/BIKA-C/sqlite"
+	"github.com/BIKA-C/sqlite/sqlitex"
 )
 
 func initSrc(t *testing.T) *sqlite.Conn {

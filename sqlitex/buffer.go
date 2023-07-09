@@ -18,7 +18,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/BIKA-C/sqlite/llsqlite"
+	"github.com/BIKA-C/sqlite"
 )
 
 // A Buffer is a variable-sized bytes buffer backed by SQLite blobs.

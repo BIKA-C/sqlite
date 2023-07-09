@@ -13,14 +13,14 @@
 // OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 // Package sqlitex provides utilities for working with SQLite.
-package sqlitex // import "github.com/BIKA-C/sqlite/llsqlite/sqlitex"
+package sqlitex // import "github.com/BIKA-C/sqlite/sqlitex"
 
 import (
 	"fmt"
 	"reflect"
 	"strings"
 
-	"github.com/BIKA-C/sqlite/llsqlite"
+	"github.com/BIKA-C/sqlite"
 )
 
 // Exec executes an SQLite query.

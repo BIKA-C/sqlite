@@ -3,7 +3,7 @@ package sqlitex
 import (
 	"errors"
 
-	"github.com/BIKA-C/sqlite/llsqlite"
+	"github.com/BIKA-C/sqlite"
 )
 
 var ErrNoResults = errors.New("sqlite: statement has no results")

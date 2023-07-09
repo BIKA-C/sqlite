@@ -19,8 +19,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/BIKA-C/sqlite/llsqlite"
-	"github.com/BIKA-C/sqlite/llsqlite/sqlitex"
+	"github.com/BIKA-C/sqlite"
+	"github.com/BIKA-C/sqlite/sqlitex"
 )
 
 func initT(t *testing.T, conn *sqlite.Conn) {

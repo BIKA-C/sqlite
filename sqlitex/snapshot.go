@@ -4,7 +4,7 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/BIKA-C/sqlite/llsqlite"
+	"github.com/BIKA-C/sqlite"
 )
 
 // GetSnapshot returns a Snapshot that should remain available for reads until

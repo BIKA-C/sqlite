@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/BIKA-C/sqlite/llsqlite"
+	"github.com/BIKA-C/sqlite"
 )
 
 func TestExec(t *testing.T) {
