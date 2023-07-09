@@ -1,3 +1,4 @@
+//go:build dummy
 // +build dummy
 
 // This file is part of a workaround for `go mod vendor` which won't vendor
@@ -14,5 +15,5 @@
 package sqlite
 
 import (
-	_ "github.com/go-llsqlite/llsqlite/c"
+	_ "github.com/BIKA-C/sqlite/c"
 )

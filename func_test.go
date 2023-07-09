@@ -20,7 +20,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-llsqlite/llsqlite"
+	"github.com/BIKA-C/sqlite/llsqlite"
 )
 
 func TestFunc(t *testing.T) {

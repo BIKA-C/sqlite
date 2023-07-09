@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-llsqlite/llsqlite"
+	"github.com/BIKA-C/sqlite/llsqlite"
 )
 
 func TestExec(t *testing.T) {

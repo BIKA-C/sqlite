@@ -3,7 +3,7 @@ package sqlitex
 import (
 	"testing"
 
-	"github.com/go-llsqlite/llsqlite"
+	"github.com/BIKA-C/sqlite/llsqlite"
 )
 
 func TestResult(t *testing.T) {

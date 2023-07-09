@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/go-llsqlite/llsqlite"
-	"github.com/go-llsqlite/llsqlite/sqlitex"
+	"github.com/BIKA-C/sqlite/llsqlite"
+	"github.com/BIKA-C/sqlite/llsqlite/sqlitex"
 )
 
 var db = fmt.Sprintf("%v/snapshot_test_%v.sqlite3",

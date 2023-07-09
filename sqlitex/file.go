@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/go-llsqlite/llsqlite"
+	"github.com/BIKA-C/sqlite/llsqlite"
 )
 
 // File is a readable, writable, and seekable series of temporary SQLite blobs.

@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/go-llsqlite/llsqlite"
+	"github.com/BIKA-C/sqlite/llsqlite"
 )
 
 const (

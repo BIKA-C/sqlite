@@ -3,7 +3,7 @@ package sqlitex
 import (
 	"errors"
 
-	"github.com/go-llsqlite/llsqlite"
+	"github.com/BIKA-C/sqlite/llsqlite"
 )
 
 var ErrNoResults = errors.New("sqlite: statement has no results")

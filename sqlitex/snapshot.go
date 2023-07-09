@@ -4,7 +4,7 @@ import (
 	"context"
 	"runtime"
 
-	"github.com/go-llsqlite/llsqlite"
+	"github.com/BIKA-C/sqlite/llsqlite"
 )
 
 // GetSnapshot returns a Snapshot that should remain available for reads until
