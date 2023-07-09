@@ -19,7 +19,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/BIKA-C/sqlite"
+	"github.com/bika-c/sqlite"
 )
 
 // Save creates a named SQLite transaction using SAVEPOINT.

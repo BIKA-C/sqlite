@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/BIKA-C/sqlite"
-	"github.com/BIKA-C/sqlite/sqlitex"
+	"github.com/bika-c/sqlite"
+	"github.com/bika-c/sqlite/sqlitex"
 )
 
 var db = fmt.Sprintf("%v/snapshot_test_%v.sqlite3",

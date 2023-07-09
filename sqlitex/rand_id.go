@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/BIKA-C/sqlite"
+	"github.com/bika-c/sqlite"
 )
 
 // InsertRandID executes stmt with a random value in the range [min, max) for $param.

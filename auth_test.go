@@ -3,7 +3,7 @@ package sqlite_test
 import (
 	"testing"
 
-	"github.com/BIKA-C/sqlite"
+	"github.com/bika-c/sqlite"
 )
 
 func TestSetAuthorizer(t *testing.T) {

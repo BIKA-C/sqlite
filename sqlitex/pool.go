@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/BIKA-C/sqlite"
+	"github.com/bika-c/sqlite"
 )
 
 // Pool is a pool of SQLite connections.

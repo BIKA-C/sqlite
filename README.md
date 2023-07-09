@@ -1,18 +1,18 @@
 # Low-level Go interface to SQLite
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/BIKA-C/sqlite.svg)](https://pkg.go.dev/github.com/BIKA-C/sqlite)
+[![Go Reference](https://pkg.go.dev/badge/github.com/bika-c/sqlite.svg)](https://pkg.go.dev/github.com/bika-c/sqlite)
 
 This project is a community-managed fork of <https://github.com/crawshaw/sqlite>.
 
-This package provides a low-level Go interface to SQLite 3. Connections are [pooled](https://pkg.go.dev/github.com/BIKA-C/sqlite#Pool) and if the SQLite [shared cache](https://www.sqlite.org/sharedcache.html) mode is enabled the package takes advantage of the [unlock-notify API](https://www.sqlite.org/unlock_notify.html) to minimize the amount of handling user code needs for dealing with database lock contention.
+This package provides a low-level Go interface to SQLite 3. Connections are [pooled](https://pkg.go.dev/github.com/bika-c/sqlite#Pool) and if the SQLite [shared cache](https://www.sqlite.org/sharedcache.html) mode is enabled the package takes advantage of the [unlock-notify API](https://www.sqlite.org/unlock_notify.html) to minimize the amount of handling user code needs for dealing with database lock contention.
 
 It has interfaces for some of SQLite's more interesting extensions, such as [incremental BLOB I/O](https://www.sqlite.org/c3ref/blob_open.html) and the [session extension](https://www.sqlite.org/sessionintro.html).
 
-A utility package, [sqlitex](https://pkg.go.dev/github.com/BIKA-C/sqlite/sqlitex), provides some higher-level tools for making it easier to perform common tasks with SQLite. In particular it provides support to make nested transactions easy to use via [sqlitex.Save](https://pkg.go.dev/github.com/BIKA-C/sqlite/sqlitex#Save).
+A utility package, [sqlitex](https://pkg.go.dev/github.com/bika-c/sqlite/sqlitex), provides some higher-level tools for making it easier to perform common tasks with SQLite. In particular it provides support to make nested transactions easy to use via [sqlitex.Save](https://pkg.go.dev/github.com/bika-c/sqlite/sqlitex#Save).
 
 This is not a database/sql driver.
 
-```go get -u github.com/BIKA-C/sqlite```
+```go get -u github.com/bika-c/sqlite```
 
 ## Example
 
@@ -51,7 +51,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-<https://pkg.go.dev/github.com/BIKA-C/sqlite>
+<https://pkg.go.dev/github.com/bika-c/sqlite>
 
 ## Platform specific considerations
 

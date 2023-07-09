@@ -20,7 +20,7 @@ import (
 	"testing"
 
 	"crawshaw.io/iox/ioxtest"
-	"github.com/BIKA-C/sqlite"
+	"github.com/bika-c/sqlite"
 )
 
 func TestBuffer(t *testing.T) {

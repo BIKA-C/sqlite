@@ -15,5 +15,5 @@
 package sqlite
 
 import (
-	_ "github.com/BIKA-C/sqlite/c"
+	_ "github.com/bika-c/sqlite/c"
 )

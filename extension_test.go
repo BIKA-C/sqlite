@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/BIKA-C/sqlite"
+	"github.com/bika-c/sqlite"
 )
 
 const (

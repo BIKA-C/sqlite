@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/BIKA-C/sqlite"
+	"github.com/bika-c/sqlite"
 )
 
 // File is a readable, writable, and seekable series of temporary SQLite blobs.

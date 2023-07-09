@@ -28,8 +28,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/BIKA-C/sqlite"
-	"github.com/BIKA-C/sqlite/sqlitex"
+	"github.com/bika-c/sqlite"
+	"github.com/bika-c/sqlite/sqlitex"
 )
 
 func TestConn(t *testing.T) {

@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/BIKA-C/sqlite"
+	"github.com/bika-c/sqlite"
 )
 
 func TestBlob(t *testing.T) {
