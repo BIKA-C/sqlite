@@ -1,4 +1,4 @@
-module github.com/BIKA-C/sqlite
+module github.com/bika-c/sqlite
 
 go 1.20
 
