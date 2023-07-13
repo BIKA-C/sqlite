@@ -375,14 +375,6 @@ func (conn *Conn) Prepare(query string) (*Stmt, error) {
 		if err := stmt.Reset(); err != nil {
 			return nil, err
 		}
-		if err := stmt.ClearBindings(); err != nil {
-			return nil, err
-		}
-		if conn.tracer != nil {
-			// TODO: is query too long for a task name?
-			//       should we use trace.Log instead?
-			stmt.tracerTask = conn.tracer.NewTask(query)
-		}
 		return stmt, nil
 	}
 	stmt, trailingBytes, err := conn.prepare(query, C.SQLITE_PREPARE_PERSISTENT)
